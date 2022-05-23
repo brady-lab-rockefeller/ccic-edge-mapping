@@ -2,6 +2,7 @@
 
 # Requirements:
 # seqkit >= 2.1.0
+# seqtk >= 1.3-r106
 # vsearch >= 2.18.0
 # minimap2 >= 2.24-r1122
 
@@ -46,6 +47,7 @@ function logthis() {
 }
 [ -d "$1" ] || die "Directory '$1' does not exist!"
 is_command seqkit || die "Error: command 'seqkit' not in PATH!"
+is_command seqtk || die "Error: command 'seqtk' not in PATH!"
 is_command vsearch || die "Error: command 'vsearch' not in PATH!"
 is_command minimap2 || die "Error: command 'minimap2' not in PATH!"
 
