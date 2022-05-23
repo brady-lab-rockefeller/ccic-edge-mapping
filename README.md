@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/495478595.svg)](https://zenodo.org/badge/latestdoi/495478595)
+
 # Edge mapping for guiding CCIC-based retrieval
 
 ## Description
