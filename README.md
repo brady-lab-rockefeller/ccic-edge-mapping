@@ -30,6 +30,15 @@ albidoflavus J1074 genome used for the experiment.
 This script has only been tested on CentOS 7, but should work on most Linux
 based systems with a GNU-compatible coreutils.
 
+A conda environment has been provided to ensure all required software is
+available. You can use it in conda with:
+
+```bash
+conda env create -f ccic-edge-mapping_env.yml -n ccic-edge-mapping
+# Or with mamba (much faster)
+mamba env create -f ccic-edge-mapping_env.yml -n ccic-edge-mapping
+```
+
 ## Running
 
 ```bash
